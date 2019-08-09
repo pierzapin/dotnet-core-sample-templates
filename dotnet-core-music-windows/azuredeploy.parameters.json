@@ -12,7 +12,7 @@
             "value": "dnsname"
         },
         "adminPassword": {
-            "value": "password"
+            "value": "$(adminPassword)"
         }
     }
 }
