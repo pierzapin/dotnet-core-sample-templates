@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-# Starter pipeline
+steps:
 - task: AzureResourceGroupDeployment@2
   inputs:
     azureSubscription: 'WLGLab-MusicStore'
