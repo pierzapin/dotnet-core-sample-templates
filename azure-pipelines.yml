@@ -14,7 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - task: AzureResourceGroupDeployment@2
- inputs:
+  inputs:
     azureSubscription: 'WLG_LAB_MusicStore_QA'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'MusicStore-QA'
