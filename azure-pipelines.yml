@@ -13,13 +13,13 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: AzureResourceGroupDeployment@2
-  inputs:
-    azureSubscription: 'WLGLab-MusicStore'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'MusicStore'
-    location: 'Australia East'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/pierzapin/dotnet-core-sample-templates/master/dotnet-core-music-windows/azuredeploy.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/pierzapin/dotnet-core-sample-templates/master/dotnet-core-music-windows/azuredeploy.parameters.json'
-    deploymentMode: 'Incremental'
+#- task: AzureResourceGroupDeployment@2
+# inputs:
+#    azureSubscription: 'WLGLab-MusicStore'
+#    action: 'Create Or Update Resource Group'
+#    resourceGroupName: 'MusicStore'
+#    location: 'Australia East'
+#    templateLocation: 'URL of the file'
+#    csmFileLink: 'https://raw.githubusercontent.com/pierzapin/dotnet-core-sample-templates/master/dotnet-core-music-windows/azuredeploy.json'
+#    csmParametersFileLink: 'https://raw.githubusercontent.com/pierzapin/dotnet-core-sample-templates/master/dotnet-core-music-windows/azuredeploy.parameters.json'
+#    deploymentMode: 'Incremental'
