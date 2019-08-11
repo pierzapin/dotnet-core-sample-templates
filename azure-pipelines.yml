@@ -15,7 +15,7 @@ steps:
 
 - task: AzureResourceGroupDeployment@2
  inputs:
-    azureSubscription: 'WLGLab-MusicStore'
+    azureSubscription: 'WLG_LAB_MusicStore_QA'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'MusicStore-QA'
     location: 'Australia East'
