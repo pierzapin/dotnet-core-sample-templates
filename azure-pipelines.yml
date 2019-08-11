@@ -6,6 +6,9 @@
 trigger:
 - master
 
+variables:
+- group: qa_group
+
 pool:
   vmImage: 'ubuntu-latest'
 
