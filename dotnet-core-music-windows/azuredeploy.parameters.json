@@ -6,10 +6,10 @@
             "value": 1
         },
         "adminUsername": {
-            "value": "adminuser"
+            "value": "$(adminUsername)"
         },
         "publicipaddressDnsName": {
-            "value": "dnsname"
+            "value": "$(dnsName)"
         },
         "adminPassword": {
             "value": "$(adminPassword)"
