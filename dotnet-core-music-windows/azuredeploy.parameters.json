@@ -9,7 +9,7 @@
             "value": "$(adminUsername)"
         },
         "publicipaddressDnsName": {
-            "value": "music-store-qa"
+            "value": "musicstore"
         },
         "adminPassword": {
             "value": "$(adminPassword)"
